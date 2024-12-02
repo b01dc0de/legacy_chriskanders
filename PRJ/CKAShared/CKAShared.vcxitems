@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{9fa8c547-0742-4e55-9203-d7eab07fca92}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CKAFile.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CKAGFX.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CKAMath.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CKAParser.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CKAUtil.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Gamepad.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Keyboard.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Mouse.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CKAFile.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CKAGFX.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CKAInput.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CKAMath.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CKAParser.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CKAUtil.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Gamepad.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Keyboard.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mouse.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)src\CKAUtil.inl" />
+    <None Include="$(MSBuildThisFileDirectory)src\DynamicArray.inl" />
+    <None Include="$(MSBuildThisFileDirectory)src\Map.inl" />
+  </ItemGroup>
+</Project>

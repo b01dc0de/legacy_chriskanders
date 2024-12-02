@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4f0dce4e-8e83-42c5-a0a4-caeeb62468fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Math">
+      <UniqueIdentifier>{c33a73bd-337f-4153-be12-4c1d71b1c437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Util">
+      <UniqueIdentifier>{4cfdf8a7-cb24-4bf1-b695-d30571027887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ENG">
+      <UniqueIdentifier>{d0d9fe27-38ee-420e-a188-c619b6d7dc2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Camera">
+      <UniqueIdentifier>{5dc76c83-3425-4dbb-95fc-8e4298342efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Input">
+      <UniqueIdentifier>{52338007-0a73-4977-8698-3e6de2f4bc03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Clock">
+      <UniqueIdentifier>{0f50ce47-c7ea-4e57-bf79-1c3179733267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Mesh">
+      <UniqueIdentifier>{0305ed7b-1e52-41de-b177-0e7e4ba3b68d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{8e159efc-3fd1-4583-9a1f-ba5eb2e4dff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Shader">
+      <UniqueIdentifier>{33054bd1-7bd4-46dc-99d9-0571f6c24546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GFX">
+      <UniqueIdentifier>{5d04a486-d57a-4657-b673-c22e3a554776}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CKAMath.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CKAUtil.cpp">
+      <Filter>src\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine.cpp">
+      <Filter>src\ENG</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ENG_Win32.cpp">
+      <Filter>src\ENG</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mouse.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Clock.cpp">
+      <Filter>src\Clock</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Keyboard.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>src\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GFXEntity.cpp">
+      <Filter>src\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CKAGFX.cpp">
+      <Filter>src\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PrefabMesh.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CKAMath.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CKAUtil.h">
+      <Filter>src\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine.h">
+      <Filter>src\ENG</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ENG_Win32.h">
+      <Filter>src\ENG</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mouse.h">
+      <Filter>src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Clock.h">
+      <Filter>src\Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Keyboard.h">
+      <Filter>src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader.h">
+      <Filter>src\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GFXEntity.h">
+      <Filter>src\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CKAGFX.h">
+      <Filter>src\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PrefabMesh.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\ShaderColor.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{769958b7-2952-45dd-9b8e-1d70eeca6eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Clock">
+      <UniqueIdentifier>{e62a95fb-84a7-470e-810f-9884ad8f932e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine">
+      <UniqueIdentifier>{9350c2de-3dd2-4b14-8d4a-c900412f1284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GFX">
+      <UniqueIdentifier>{402a10a3-39ed-4ca1-b931-b020b97a9f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Mesh">
+      <UniqueIdentifier>{3ad5abd5-8bcc-4189-adcf-f2410204a0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{6df38dda-8a24-4af3-919d-10e7b16da095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Texture">
+      <UniqueIdentifier>{53ff2f3d-c1a2-44d8-95b3-51c0e0f5f4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{aa82207b-4867-40d7-a80f-f90253730a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\DXTex">
+      <UniqueIdentifier>{86bf7d22-27d5-45e5-9b8a-c38ab7d9feec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\DXTex\include">
+      <UniqueIdentifier>{d9cb8f1c-0d9d-4410-b4db-5e18cfe7902a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\DXTex\lib">
+      <UniqueIdentifier>{9cfb71a1-c65e-44f3-95e0-a0186fd323e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Image">
+      <UniqueIdentifier>{fa076846-f77f-4abc-996c-9806e1a851b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Shader">
+      <UniqueIdentifier>{afb14835-397d-4f4b-ab04-e2f280419da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{451ea775-a876-4bf1-8689-c9f5bd893368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Camera">
+      <UniqueIdentifier>{239d4d8e-a5c2-4599-9ee7-ce3a1ff59c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Content">
+      <UniqueIdentifier>{521c9e2a-d08f-4f30-b35f-7eb29fabc255}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Clock.cpp">
+      <Filter>src\Clock</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ENG_Win32.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GFXEntity.cpp">
+      <Filter>src\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PrefabMesh.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>src\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>src\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Image.cpp">
+      <Filter>src\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShaderManager.cpp">
+      <Filter>src\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImageManager.cpp">
+      <Filter>src\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextureManager.cpp">
+      <Filter>src\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tube.cpp">
+      <Filter>src\Game\Content</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Camera.h">
+      <Filter>src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Clock.h">
+      <Filter>src\Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ENG_Win32.h">
+      <Filter>src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine.h">
+      <Filter>src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GFXEntity.h">
+      <Filter>src\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PrefabMesh.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader.h">
+      <Filter>src\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texture.h">
+      <Filter>src\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\DXTex\include\DirectXTex.h">
+      <Filter>lib\DXTex\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ENGCommon.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Image.h">
+      <Filter>src\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShaderManager.h">
+      <Filter>src\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImageManager.h">
+      <Filter>src\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextureManager.h">
+      <Filter>src\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tube.h">
+      <Filter>src\Game\Content</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\DXTex\lib\DirectXTex_Debug.lib">
+      <Filter>lib\DXTex\lib</Filter>
+    </Library>
+    <Library Include="lib\DXTex\lib\DirectXTex_Release.lib">
+      <Filter>lib\DXTex\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\ShaderColor.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderTexture.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderUI.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderSingleColor.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
